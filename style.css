@@ -1,0 +1,100 @@
+section{
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: #333;
+    font-size: 3em;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+input[type="text"]{
+    width: 100%;
+    max-width: 300px;
+    height: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #7f5ef8;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+}
+button{
+    height: 16px;
+    width: 100%;
+    max-width: 64px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #7f5ef8;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+div{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+}
+#task-list{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.task-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+#add-task-btn{
+    height: 50px;
+    width: 100%;
+    
+    max-width: 100px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+}
+.delete-btn{
+    background-color: #ff3f3f;
+}
+#task-ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.task-item{
+    backdrop-filter: blur(20px);
+    background-color: #fbf9fd;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+}
+.task-complete{
+    color: white;
+    text-decoration-line: line-through;
+    font-weight: bold;
+}
